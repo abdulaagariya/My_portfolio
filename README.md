@@ -1,7 +1,7 @@
 # Portfolio
 this run project 
 
-Step1: npm install
+Step1: npm install & npm start
 
 step2: npm run-script
 
