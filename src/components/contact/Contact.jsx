@@ -13,10 +13,10 @@ const Contact = () => {
    
     try {
       const result = await emailjs.sendForm(
-        "service_4ki1awp",
-        "template_74pnxae",
+        "Service_ID",
+        "Template_ID",
         form.current,
-        "skkXVNkFgEUBKz6rc"
+        "You_Public_key"
       );
       console.log(result.text);
       setSent(true); // Update the sent state to true
